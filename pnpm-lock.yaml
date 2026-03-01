@@ -219,8 +219,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/core
       '@gitbutler/design-core':
-        specifier: 1.7.7
-        version: 1.7.7
+        specifier: 1.8.3
+        version: 1.8.3
       '@gitbutler/shared':
         specifier: workspace:*
         version: link:../../packages/shared
@@ -476,8 +476,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/core
       '@gitbutler/design-core':
-        specifier: 1.7.7
-        version: 1.7.7
+        specifier: 1.8.3
+        version: 1.8.3
       '@gitbutler/shared':
         specifier: workspace:*
         version: link:../../packages/shared
@@ -596,6 +596,9 @@ importers:
       '@napi-rs/cli':
         specifier: ^3.5.1
         version: 3.5.1(@emnapi/runtime@1.7.1)(@types/node@22.19.11)(node-addon-api@7.1.1)
+      '@types/node':
+        specifier: ^22.19.11
+        version: 22.19.11
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.19.11)(typescript@5.9.3)
@@ -882,8 +885,8 @@ importers:
         specifier: ^2.0.8
         version: 2.0.8(postcss@8.5.6)
       '@gitbutler/design-core':
-        specifier: 1.7.7
-        version: 1.7.7
+        specifier: 1.8.3
+        version: 1.8.3
       '@lezer/common':
         specifier: ^1.5.1
         version: 1.5.1
@@ -2032,8 +2035,8 @@ packages:
     resolution: {integrity: sha512-oC5cM6jS7aFOp0luTw5mWSRuMgdxwHRLZQ/aWkI+ETMfsprR/HyxsXfljlMY/XJ/fRxTbRJiodR5Axf66WjO3w==}
     engines: {node: '>=18.20.0'}
 
-  '@gitbutler/design-core@1.7.7':
-    resolution: {integrity: sha512-aplRKwZiOR5q7l/02kXOAUDDAauRRYeA8b1lqGvMSPpHLZzZWN75Ms0zuuhuox4auBQ7bHfgo6chFvVBvF3VGw==}
+  '@gitbutler/design-core@1.8.3':
+    resolution: {integrity: sha512-euoNT/5RFtCltuA8FSOUoBfY1qop9uEKLVE7bPmV9WmHcVDElGv21i4ZDA5HXBTYATeYwObRwY3MLoY/McpoBg==}
 
   '@hapi/address@5.1.1':
     resolution: {integrity: sha512-A+po2d/dVoY7cYajycYI43ZbYMXukuopIsqCjh5QzsBCipDtdofHntljDlpccMjIfTy6UOkg+5KPriwYch2bXA==}
@@ -10563,7 +10566,7 @@ snapshots:
       '@gitbeaker/core': 42.5.0
       '@gitbeaker/requester-utils': 42.5.0
 
-  '@gitbutler/design-core@1.7.7': {}
+  '@gitbutler/design-core@1.8.3': {}
 
   '@hapi/address@5.1.1':
     dependencies:

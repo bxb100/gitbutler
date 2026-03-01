@@ -66,7 +66,7 @@
 	.indicator {
 		--label-clr: var(--clr-text-1);
 		--btn-border-clr: var(--clr-btn-gray-outline);
-		--btn-border-opacity: var(--opacity-btn-outline);
+		--btn-border-opacity: var(--opacity-mix-btn-outline-border);
 
 		display: flex;
 		align-items: center;
@@ -74,11 +74,7 @@
 		padding: 0 10px;
 
 		border: 1px solid
-			color-mix(
-				in srgb,
-				var(--btn-border-clr, transparent),
-				transparent calc((1 - var(--btn-border-opacity, 1)) * 100%)
-			);
+			color-mix(in srgb, var(--btn-border-clr, transparent) var(--btn-border-opacity), transparent);
 		color: var(--label-clr);
 	}
 </style>
